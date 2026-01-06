@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Belajar
+Bundle-SymbolicName: com.reka.belajar;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.adempiere.base;bundle-version="11.0.0",
+ org.compiere.db.oracle.provider;bundle-version="11.0.0",
+ org.compiere.db.postgresql.provider;bundle-version="11.0.0"
+Bundle-Vendor: REKA
+Automatic-Module-Name: com.reka.belajar
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Export-Package: com.reka.belajar.counterdoc
