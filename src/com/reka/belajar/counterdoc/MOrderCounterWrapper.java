@@ -12,9 +12,6 @@ public class MOrderCounterWrapper extends MOrder {
 		super(ctx, C_Order_ID, trxName);
 	}
 
-	/**
-	 * Expose protected MOrder.createCounterDoc() as public
-	 */
 	public MOrder createCounterDocPublic() {
 		return super.createCounterDoc();
 	}
