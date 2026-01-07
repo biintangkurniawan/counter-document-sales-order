@@ -5,8 +5,10 @@ Bundle-SymbolicName: com.reka.belajar;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Require-Bundle: org.adempiere.base;bundle-version="11.0.0",
  org.compiere.db.oracle.provider;bundle-version="11.0.0",
- org.compiere.db.postgresql.provider;bundle-version="11.0.0"
+ org.compiere.db.postgresql.provider;bundle-version="11.0.0",
+ org.adempiere.plugin.utils;bundle-version="11.0.0"
 Bundle-Vendor: REKA
 Automatic-Module-Name: com.reka.belajar
+Bundle-Activator: org.adempiere.plugin.utils.Incremental2PackActivator
 Bundle-RequiredExecutionEnvironment: JavaSE-17
 Export-Package: com.reka.belajar.counterdoc

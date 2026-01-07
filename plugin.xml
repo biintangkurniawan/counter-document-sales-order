@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?eclipse version="3.4"?>
 <plugin>
-   <extension point="org.adempiere.base.ModelValidator" id="counterFromSOValidator">
-      <validator
-            class="com.reka.belajar.counterdoc.CounterFromSOValidator"/>
+   <extension
+         id="CounterFromSOValidator"
+         point="org.adempiere.base.ModelValidator">
+      <listener
+            class="com.reka.belajar.counterdoc.CounterFromSOValidator">
+      </listener>
    </extension>
 </plugin>
